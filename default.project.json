@@ -1,0 +1,132 @@
+{
+  "name": "NES V2",
+  "tree": {
+    "$className": "DataModel",
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Brightness": 2.0,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "Workspace": {
+      "Baseplate": {
+        "$className": "Part",
+        "MainGrid": {
+          "$className": "Texture",
+          "$properties": {
+            "Color3": [
+              202.0,
+              202.0,
+              202.0
+            ],
+            "StudsPerTileU": 8.0,
+            "StudsPerTileV": 8.0,
+            "Texture": "rbxassetid://12853684014"
+          }
+        },
+        "X": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              184.0,
+              51.0,
+              80.0
+            ],
+            "Locked": true,
+            "Orientation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "Position": [
+              0.0,
+              0.03,
+              0.0
+            ],
+            "Size": [
+              0.05,
+              0.03,
+              2048.0
+            ],
+            "Transparency": 0.8
+          }
+        },
+        "Y": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              143.0,
+              167.0,
+              64.0
+            ],
+            "Locked": true,
+            "Position": [
+              0.0,
+              0.03,
+              0.0
+            ],
+            "Size": [
+              0.05,
+              0.03,
+              2048.0
+            ],
+            "Transparency": 0.8
+          }
+        },
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            99.0,
+            95.0,
+            99.0
+          ],
+          "Locked": true,
+          "Position": [
+            0.0,
+            -10.0,
+            0.0
+          ],
+          "Size": [
+            512.0,
+            20.0,
+            512.0
+          ]
+        }
+      },
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    }
+  }
+}
